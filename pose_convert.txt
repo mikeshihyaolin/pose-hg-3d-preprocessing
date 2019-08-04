@@ -1,0 +1,42 @@
+Human36M to Openpose
+                            BODY 25
+0 H36M_NAMES[0]  = 'Hip'          8
+1 H36M_NAMES[1]  = 'RHip'         9
+2 H36M_NAMES[2]  = 'RKnee'        10
+H36M_NAMES[3]  = 'RFoot'        11
+H36M_NAMES[6]  = 'LHip'         12
+H36M_NAMES[7]  = 'LKnee'        13
+H36M_NAMES[8]  = 'LFoot'        14
+H36M_NAMES[12] = 'Spine'        (1+8)/2
+H36M_NAMES[13] = 'Thorax'       1
+H36M_NAMES[14] = 'Neck/Nose'    0
+H36M_NAMES[15] = 'Head'         (15+16)/2
+H36M_NAMES[17] = 'LShoulder'    5
+H36M_NAMES[18] = 'LElbow'       6
+H36M_NAMES[19] = 'LWrist'       7
+H36M_NAMES[25] = 'RShoulder'    2
+H36M_NAMES[26] = 'RElbow'       3
+H36M_NAMES[27] = 'RWrist'       4
+
+Human36M to MPII
+                           
+# H36M_NAMES[0]  = MPII[6] =  new_data[0] = 'Hip'        
+# H36M_NAMES[1]  = MPII[2] =  new_data[1] = 'RHip'   
+# H36M_NAMES[2]  = MPII[1] =  new_data[2] = 'RKnee'   
+# H36M_NAMES[3]  = MPII[0] =  new_data[3] = 'RFoot'   
+# H36M_NAMES[6]  = MPII[3] =  new_data[4] = 'LHip'    
+# H36M_NAMES[7]  = MPII[4] =  new_data[5] = 'LKnee'   
+# H36M_NAMES[8]  = MPII[5] =  new_data[6] = 'LFoot'   
+# H36M_NAMES[12] = MPII[7] =  new_data[7] = 'Spine'        
+# H36M_NAMES[13] = MPII[8] =  new_data[8] = 'Thorax' 
+# H36M_NAMES[14] = MPII[-1] = new_data[9] =  'Neck/Nos
+# H36M_NAMES[15] = MPII[9] =  new_data[10] = 'Head'         
+# H36M_NAMES[17] = MPII[13] = new_data[11] =  'LShoulde
+# H36M_NAMES[18] = MPII[11] = new_data[12] =  'LElbow' 
+# H36M_NAMES[19] = MPII[15] = new_data[13] =  'LWrist' 
+# H36M_NAMES[25] = MPII[12] = new_data[14] =  'RShoulde
+# H36M_NAMES[26] = MPII[14] = new_data[15] =  'RElbow' 
+# H36M_NAMES[27] = MPII[10] = new_data[16] =  'RWrist'    
+
+MPII: 
+0 - r ankle, 1 - r knee, 2 - r hip, 3 - l hip, 4 - l knee, 5 - l ankle, 6 - pelvis（骨盆), 7 - thorax(胸部）, 8 - upper neck(上颈部), 9 - head top, 10 - r wrist, 11 - r elbow, 12 - r shoulder, 13 - l shoulder, 14 - l elbow, 15 - l wrist
